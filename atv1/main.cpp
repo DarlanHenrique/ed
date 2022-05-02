@@ -27,6 +27,29 @@ using namespace std;
     //cout << "O dividendo e: " << num << endl << "O divisor e: " << div << endl << "O quociente e: " << *q << endl << "O resto e: " << *r << endl;
 //}
 //ATIVIDADE 03
+
+//ATIVIDADE 04
+//bool func(int tam, int vet[], int *par, int *impar, int *negativos){
+    //for (int i = 0; i < tam; i++){
+        //if (vet[i] < 0){
+            //*negativos = *negativos + 1;
+        //}
+        //if (vet[i]%2 == 0){
+            //*par = *par + 1;
+        //}
+        //else{
+            //*impar = *impar + 1;
+        //}
+    //}
+    //if(*negativos > 0){
+        //return false;
+    //}
+    //else{
+        //return true;
+    //}
+//}
+//ATIVIDADE 04
+
 int main()
 {
 //INICIO ATIVIDADE 01
@@ -51,7 +74,27 @@ int main()
 //INICIO ATIVIDADE 03
     //int num = 0, div = 0, *q = new int, *r = new int;
     //divisao(num, div, q, r);
+    //delete q;
+    //delete r;
 //FIM ATIVIDADE 03
+
+//INICIO ATIVIDADE 04
+    //int tam, vet[tam], *par = new int, *impar = new int, *negativos = new int;
+    //cout << "Digite o tamanho do vetor: ";
+    //cin >> tam;
+    //for (int i = 0; i < tam; i++){
+        //cout << endl << "Digite o " << i+1 << "º valor: ";
+        //cin >> vet[i];
+    //}
+    //func(tam, vet, par, impar, negativos);
+    //for (int i = 0; i < tam; i++){
+        //cout << endl << "O "  << i+1 << "º valor e: " << vet[i];
+    //}
+    //cout << endl << "O valor de negativos e: " << *negativos << endl;
+    //cout << "O valor de pares e: " << *par << endl;
+    //cout << "O valor de imapares e: " << *impar << endl;
+
+//FIM ATIVIDADE 04
 
     return 0;
 }
